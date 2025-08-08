@@ -40,7 +40,7 @@ def analisador_sentimentos(produto):
     """
 
     prompt_usuario = carrega(f"./dados/avaliacoes-{produto}.txt")
-    print(f"Inicou a análise de sentimentos do produto {produto}")
+    print(f"Iniciou a análise de sentimentos do produto {produto}")
 
     lista_mensagens = [
         {
@@ -65,5 +65,6 @@ def analisador_sentimentos(produto):
         print(f"Erro de Autenticação: {e}")
     except openai.APIError as e:
         print(f"Erro de API: {e}")    
-
-analisador_sentimentos("Maquiagem mineral")
+lista_de_produtos = ["Camisetas de algodão orgânico", "Jeans feitos com materiais reciclados", "Maquiagem mineral"]
+for um_produto in lista_de_produtos:
+    analisador_sentimentos(um_produto)
