@@ -9,10 +9,6 @@ load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 modelo = "gpt-4"
 
-# *********************************************************
-#  Desafio: Avaliar se uma transação financeira é fraudulenta ou não
-# *********************************************************
-
 
 def carrega_csv(nome_do_arquivo):
     try:
@@ -130,12 +126,9 @@ def gera_recomendacoes(transacao):
     print("Finalizou a geração de recomendação")
     return conteudo
 
-
-# Carrega o dataset de transações
 transacoes = carrega_csv("dados/transacoes.csv")
 transacoes_avaliadas = analisar_transacao(transacoes)
 
-# Gera recomendações para cada transação
 for transacao in transacoes_avaliadas["transacoes"]:
     id_transacao = transacao["id"]
     produto_transacao = transacao["nome_produto"]
