@@ -1,0 +1,9 @@
+Recomendação:
+
+Baseada nos detalhes da transação apresentados, recomendo que a seguinte ação seja iniciada: "Acionar o setor Anti-Fraude". O parecer de possível fraude é motivado pela falta de especificação do horário da transação e pelo alto valor da mesma. Esta transação requere investigação adicional conduzida por uma equipe com especialização anti-fraude para assegurar a verificação da autenticidade da transação e minimizar possíveis riscos.
+
+Além disso, recomendo a "Notificação ao Cliente" para confirmar a ocorrência dessa transação. Isto pode proporcionar uma camada adicional de segurança e permitir que o cliente tome medidas necessárias de seu lado, como a atualização das credenciais de segurança.
+
+Classificação do Tipo de Fraude: 
+
+Com base na informação fornecida, esta transação pode ser classificada sob o tipo "Fraude de Cartão de Crédito Não Presente", dado pelo fato de que a transação apresenta sinais de falta de verificação de autenticidade. Se confirmada, essa fraude ocorre quando os detalhes do cartão de crédito são usados sem a necessidade do cartão físico estar presente.
